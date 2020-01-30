@@ -1,0 +1,54 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/ghoust240/RTR108
+    4  ls
+    5  cd RTR108
+    6  nano git-upload
+    7  ls
+    8  nano git-upload
+    9  ls -l
+   10  chmod 755 git-upload
+   11  ls -l
+   12  nano README.md
+   13  ls -l
+   14  git-upload
+   15  ./git-upload
+   16  ./git-upload 
+   17  ./git-upload 20200130_10_45
+   18  ls -l
+   19  pwd
+   20  python
+   21  ipython
+   22  ls -l
+   23  nano python_test.py
+   24  cat python_test.py 
+   25  python python_test.py\
+   26  python python_test.py
+   27  nano python_test.py
+   28  python python_test.py
+   29  nano python_test.py
+   30  python python_test.py
+   31  python --version
+   32  python2 python_test.py
+   33  nano python_test.py
+   34  python2 python_test.py
+   35  python python_test.py
+   36  nano python_test.py
+   37  python python_test.py
+   38  cp python_test.py python_test_auto_exe.py
+   39  ls -l
+   40  nano python_test_auto_exe.py
+   41  ./python_test_auto_exe.py
+   42  ls -l
+   43  chmod 755 python_test_auto_exe.py 
+   44  ls
+   45  ./python_test_auto_exe.py\
+   46  ./python_test_auto_exe.py
+   47  ls -la /usr/bin/python
+   48  idle
+   49  ls
+   50  idle
+   51  ./git-upload 20200130_11_41
+   52  python2 -m SimpleHTTPServer 8000
+   53  history_20200130_11_50
+   54  history >> history_20200130_15_51.txt
