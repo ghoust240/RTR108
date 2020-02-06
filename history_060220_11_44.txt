@@ -1,0 +1,28 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls -l
+    4  nano server.py
+    5  ls -lt
+    6  ls -lt ../Downloads/
+    7  ngrok-stable-linux-amd64
+    8  ./ngrok-stable-linux-amd64
+    9  ngrok
+   10  snap install ngrok
+   11  ls -lt
+   12  ls -lt ../Downloads/
+   13  unzip ~/ngrok-stable-linux-amd64.zip
+   14  lslsls
+   15  ls
+   16  ls -lt ../Downloads/
+   17  unzip ~/Downloads/ngrok-stable-linux-amd64.zip
+   18  ls
+   19  man ngrok
+   20  ./ngrok http 1337
+   21  ./ngrok http 8000
+   22  ifconfig
+   23  ls -l
+   24  python -m http.host 8000 &
+   25  python -m http.server 8000 &
+   26  ls -l
+   27  nano server.py
+   28  history > history_060220_11_44.txt

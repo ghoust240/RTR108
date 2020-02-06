@@ -1,0 +1,98 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/ghoust240/RTR108
+    4  ls -l
+    5  cd RTR108
+    6  ls
+    7  python -m http.server 8000 &
+    8  python -m http.server 8000 > server.log
+    9  python -m http.server 8000 > server.logps -aux
+   10  ps -aux | grep server
+   11  kill 2423
+   12  ps -aux | grep server
+   13  kill 3084
+   14  ls -l
+   15  nano
+   16  python -m http.server 8000 > ./logfile 2>&1 &
+   17  ls
+   18  ls -l
+   19  nano logfile
+   20  ps -aux | grep server
+   21  kill 3200
+   22  ls
+   23  rm server.log
+   24  rm server.logps
+   25  ls -l
+   26  nano logfile
+   27  rm logfile
+   28  nano logfile
+   29  python -m http.server 8000 > ./logfile.txt 2>&1 &
+   30  ls -l
+   31  nano logfile.txt
+   32  nano logfile
+   33  ps -aux | grep server
+   34  kill 3236
+   35  python -m http.server 8000 > ./logfile > ./logfile.txt 2>&1 &
+   36  ls -l
+   37  nano logfile.txt
+   38  nano logfile
+   39  ps -aux | grep server
+   40  kill 3244
+   41  nano logfile
+   42  ls -l
+   43  rm logfile.txt
+   44  ls -l
+   45  nano logfile
+   46  ls -l
+   47  ps -aux | grep server
+   48  kill 3256
+   49  ls -l
+   50  chmod 755 logfile
+   51  ls -l
+   52  nano logfile
+   53  ls -l
+   54  python http.server 8000 > ./logfile 2>&1 &
+   55  ls -l
+   56  cat logfile
+   57  nano logfile
+   58  nano logfile.txt
+   59  ls
+   60  ls -l
+   61  ps -aux | grep server
+   62  kill 3313
+   63  python -m http.server &> http.server.log & echo $! > http.server.pid
+   64  ls
+   65  ls -l
+   66  nano http.server.log
+   67  nano http.server.pid
+   68  ls -l
+   69  nano logfile
+   70  python -m http.server 8000 > ./logfile 2>&1 &
+   71  ls
+   72  ls -l
+   73  rm ngrok
+   74  ls -l
+   75  ps -aux | grep server
+   76  kill 3625
+   77* 
+   78  ls -l
+   79  cat http.server.log
+   80  ls -l
+   81  cat http.server.log
+   82  ls -l
+   83  cat http.server.pid
+   84  ps -aux | grep server
+   85  kill 3682
+   86  ls -l
+   87  python3 -u -m http.server &> http.server.log & echo $! > http.server.pid
+   88  ls -l
+   89  cat http.server.log
+   90  pytho3 -m http.server &> http.server.log & echo $! > http.server.pid
+   91  python3 -m http.server 8000  &> http.server.log & echo $! > http.server.pid
+   92  ls -l
+   93  cat http.server.log
+   94  cat ./http.server.log
+   95  cat http.server.log
+   96  ps -aux | grep server
+   97  kill 3777
+   98  history > history_python_server1.txt
