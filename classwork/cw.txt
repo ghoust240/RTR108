@@ -1,0 +1,96 @@
+Python 3.6.8 (default, Jan 14 2019, 11:02:34) 
+[GCC 8.0.1 20180414 (experimental) [trunk revision 259383]] on linux
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> ls
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    ls
+NameError: name 'ls' is not defined
+>>> cd
+Traceback (most recent call last):
+  File "<pyshell#1>", line 1, in <module>
+    cd
+NameError: name 'cd' is not defined
+>>> diary
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    diary
+NameError: name 'diary' is not defined
+>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> 5 == 5
+True
+>>> 5 == 6
+False
+>>> history
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    history
+NameError: name 'history' is not defined
+>>> readline.get_current_history_length()
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    readline.get_current_history_length()
+NameError: name 'readline' is not defined
+>>> def print_lyrics():
+    print("I'm a lumberjack, and I'm okay.")
+    print('I sleep all night and I work all day.')
+
+    
+>>> prtin_lyrics()
+Traceback (most recent call last):
+  File "<pyshell#10>", line 1, in <module>
+    prtin_lyrics()
+NameError: name 'prtin_lyrics' is not defined
+>>> print_lyrics
+<function print_lyrics at 0x7f3b84b43510>
+>>> print_lyrics()
+I'm a lumberjack, and I'm okay.
+I sleep all night and I work all day.
+>>> def print_twice(bruce):
+    print(bruce)
+    print(bruce)
+
+    
+>>> print_twice(die)
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    print_twice(die)
+NameError: name 'die' is not defined
+>>> 
+>>> print_twice("well")
+well
+well
+>>> print_twice("well"*4)
+wellwellwellwell
+wellwellwellwell
+>>> print_twice("well "*^4)
+SyntaxError: invalid syntax
+>>> int.bit_length()
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    int.bit_length()
+TypeError: descriptor 'bit_length' of 'int' object needs an argument
+>>> bin(1)
+'0b1'
+>>> 1.bit_lenght()
+SyntaxError: invalid syntax
+>>> n=1
+>>> bin(n)
+'0b1'
+>>> n.bit_lenght()
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    n.bit_lenght()
+AttributeError: 'int' object has no attribute 'bit_lenght'
+>>> source(Iterable)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    source(Iterable)
+NameError: name 'source' is not defined
+>>> bytes(source(iterable))
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    bytes(source(iterable))
+NameError: name 'source' is not defined
+>>> x=shortbytes()
