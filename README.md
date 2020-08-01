@@ -1,5 +1,8 @@
 # RTR108
 datormaciba (speckurss) - elektroniska klade
+Visi klase paraditie darbi atrodas claswork mape
+
+Piezimes sev pašam:
 ## 1. Nodarbiba
 
 ld1
